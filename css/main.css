@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 "Lato", sans-serif;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
@@ -11,13 +12,13 @@ body{
   margin: 0;
 }
 
-figure {
+section {
   text-align: center;
   margin: 0;
   padding: 1em 0;
 }
 
-img {
+section img {
   display: inline-block;
   width: 100%;
   max-width: 25em;
@@ -25,7 +26,7 @@ img {
   padding: 1.5em;
 }
 
-figcaption {
+section div {
   display: inline-block;
   width: 100%;
   max-width: 25em;
