@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Lato", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+figure {
+  text-align: center;
+  padding: 2em;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+}
+
+figcaption {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  margin: 0 1.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  display: inline-block;
+  color: #fff;
+  border: 3px solid #666;
+  background-color: #666;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.25rem;
+}
