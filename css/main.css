@@ -19,7 +19,7 @@ section {
 }
 
 img {
-  display: inline;
+  display: inline-block;
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
