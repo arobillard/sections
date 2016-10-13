@@ -18,12 +18,17 @@ section {
   padding: 1em 0;
 }
 
-img {
+.img {
   display: inline-block;
   width: 100%;
   max-width: 25em;
   vertical-align: middle;
   padding: 1.5em;
+}
+
+.img img {
+  width: 100%;
+  display: block;
 }
 
 section div {
