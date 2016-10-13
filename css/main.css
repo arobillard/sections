@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ section {
   padding: 1em 0;
 }
 
-section img {
+img {
   display: inline-block;
   width: 100%;
   max-width: 25em;
